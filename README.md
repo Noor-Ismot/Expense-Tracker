@@ -4,6 +4,7 @@ A simple, command-line expense tracking program built in Python that helps users
 
 
 
+
 ## 🚀 Features
 
 **💰 Add Expenses:** Quickly input expense amount, category, and description.  
@@ -11,6 +12,7 @@ A simple, command-line expense tracking program built in Python that helps users
 **🗂️ View Expenses by Category:** See how your spending breaks down.  
 **💾 Persistent Session Tracking:** Add multiple expenses in the same runtime session.  
 **✅ Input Validation:** Only accepts valid numeric amounts and non-empty categories.  
+
 
 
 
@@ -35,11 +37,13 @@ A simple, command-line expense tracking program built in Python that helps users
 5.  **Exit** the program when done.
 
 
+
 ## 🛠️ Code Highlights
 
 **📂 Dictionary-based storage:** Organizes expenses by category for fast lookup and aggregation.
 **🔁 Reusable functions:** Functions like `view_category_expense`, `view_total_expense`, and `add_expense` make the code modular and easy to extend.
 **⚠️ Error handling:** Input validation ensures a smooth and error-free user experience.
+
 
 
 
