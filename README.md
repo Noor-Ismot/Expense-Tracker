@@ -41,7 +41,7 @@ A simple, command-line expense tracking program built in Python that helps users
 **🔁 Reusable functions:** Functions like `view_category_expense`, `view_total_expense`, and `add_expense` make the code modular and easy to extend.
 **⚠️ Error handling:** Input validation ensures a smooth and error-free user experience.
 
----
+
 
 ## 🎯 Future Improvements
 
