@@ -1,17 +1,16 @@
 # 📝 Expense Tracker
 
-A simple, command-line expense tracking program built in Python that helps users manage spending by category and view totals. The program stores expenses in a dictionary, allowing for efficient categorization and retrieval. Users can continuously add expenses and view summaries until they choose to exit. 
+A simple, command-line expense tracking program built in Python that helps users manage spending by category and view totals. The program uses a dictionary-based structure and saves data to a local file, ensuring your records are preserved even after closing the program.
 
 
 
+## 🚀 Features 
 
-## 🚀 Features
-
-**💰 Add Expenses:** Quickly input expense amount, category, and description.  
+**💰 Add Expenses:** Quickly input expense amount, category, and description.
 **📊 View Total Expense:** Get a cumulative sum of all expenses.  
-**🗂️ View Expenses by Category:** See how your spending breaks down.  
-**💾 Persistent Session Tracking:** Add multiple expenses in the same runtime session.  
-**✅ Input Validation:** Only accepts valid numeric amounts and non-empty categories.  
+**🗂️ View Expenses by Category:** See a breakdown of spending organized by category. 
+**💾 Persistent Storage:** Automatically saves and loads data from a json file using the JSON format.
+**✅ Input Validation:** Ensures only valid numbers and non-empty categories are accepted.  
 
 
 
@@ -40,16 +39,15 @@ A simple, command-line expense tracking program built in Python that helps users
 
 ## 🛠️ Code Highlights
 
-**📂 Dictionary-based storage:** Organizes expenses by category for fast lookup and aggregation.
-**🔁 Reusable functions:** Functions like `view_category_expense`, `view_total_expense`, and `add_expense` make the code modular and easy to extend.
+**📂 JSON Integration:** Uses the `json` module to serialize and deserialize data, allowing for permanent storage in `expense.json`.
+****🔁 Modular Logic:** Separate functions for loading, saving, and calculating totals make the code clean and maintainable.
 **⚠️ Error handling:** Input validation ensures a smooth and error-free user experience.
-
 
 
 
 ## 🎯 Future Improvements
 
-**💾 Data persistence:** Save expenses to a file (CSV/JSON) or database.
 **📈 Visualizations:** Add charts or graphs to represent spending visually.
 **🖥️ GUI Interface:** Create a user-friendly graphical interface.
+**📅 Date Tracking:** Include timestamps for each expense to allow for weekly or monthly reports.
 **🚨 Budget alerts:** Notify users when spending exceeds set limits.
