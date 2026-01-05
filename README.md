@@ -6,11 +6,11 @@ A simple, command-line expense tracking program built in Python that helps users
 
 ## 🚀 Features 
 
-**💰 Add Expenses:** Quickly input expense amount, category, and description.
-**📊 View Total Expense:** Get a cumulative sum of all expenses.  
-**🗂️ View Expenses by Category:** See a breakdown of spending organized by category. 
-**💾 Persistent Storage:** Automatically saves and loads data from a json file using the JSON format.
-**✅ Input Validation:** Ensures only valid numbers and non-empty categories are accepted.  
+**💰 Add Expenses:** Quickly input expense amount, category, and description.<br>
+**📊 View Total Expense:** Get a cumulative sum of all expenses.  <br>
+**🗂️ View Expenses by Category:** See a breakdown of spending organized by category. <br>
+**💾 Persistent Storage:** Automatically saves and loads data from a json file using the JSON format.<br>
+**✅ Input Validation:** Ensures only valid numbers and non-empty categories are accepted.
 
 
 
@@ -39,15 +39,15 @@ A simple, command-line expense tracking program built in Python that helps users
 
 ## 🛠️ Code Highlights
 
-**📂 JSON Integration:** Uses the `json` module to serialize and deserialize data, allowing for permanent storage in `expense.json`.
-****🔁 Modular Logic:** Separate functions for loading, saving, and calculating totals make the code clean and maintainable.
+**📂 JSON Integration:** Uses the `json` module to serialize and deserialize data, allowing for permanent storage in `expense.json`. <br>
+****🔁 Modular Logic:** Separate functions for loading, saving, and calculating totals make the code clean and maintainable. <br>
 **⚠️ Error handling:** Input validation ensures a smooth and error-free user experience.
 
 
 
 ## 🎯 Future Improvements
 
-**📈 Visualizations:** Add charts or graphs to represent spending visually.
-**🖥️ GUI Interface:** Create a user-friendly graphical interface.
-**📅 Date Tracking:** Include timestamps for each expense to allow for weekly or monthly reports.
+**📈 Visualizations:** Add charts or graphs to represent spending visually.<br>
+**🖥️ GUI Interface:** Create a user-friendly graphical interface.<br>
+**📅 Date Tracking:** Include timestamps for each expense to allow for weekly or monthly reports.<br>
 **🚨 Budget alerts:** Notify users when spending exceeds set limits.
